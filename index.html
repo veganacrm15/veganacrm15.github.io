@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegana</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Estonia&family=Kaushan+Script&family=Marck+Script&family=Nothing+You+Could+Do&family=Patrick+Hand&family=Roboto&family=Satisfy&family=Sawarabi+Gothic&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="assets/img/logo_nho.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/img/logo_nho.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="app">
+        <!--Header: begin-->
+        <header class="header">
+            <div class="grid wide ">
+                <div class="row navbar">
+                    <div class="col l-2 m-2 c-6">
+                        <a href="index.html" style="text-decoration: none">
+                            <a class="navbar-brand logo" href="index.html">
+                                <img src="logo_to.png" alt="logo">
+                            </a>
+                            
+                        </a>
+                    </div>
+                    <div class="col l-8 m-8 c-0">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="./index.html" class="navbar__item-link">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__item-link" href="./products.html">
+                                    PRODUCTS
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__item-link" href="./about.html">
+                                    ABOUT US
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__item-link" href="./contact.html">
+                                    CONTACT US
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-icon col l-2 m-2 c-0">
+                        <div class="search-link__wrapper">
+                            <a class="search-link">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                        <div class="cart-link__wrapper">
+                            <a href="./cart.html" class="cart-link">
+                                <span class="cart-link-notice">3</span>
+                                <i class="fa fa-cart-plus"></i>
+                            </a>
+                            <!-- cart list -->
+                            <div class="cart-list">
+                                <!-- empty cart list -->
+                                <div class="cart-list__empty-cart">
+                                    <img src="./assets/img/icon/empty_cart.png" alt="Empty cart" class="cart-list__empty-cart-img">
+                                    <div class="cart-list__empty-cart-title">
+                                        Unfortunately, Your Cart Is Empty
+                                    </div>
+                                    <div class="cart-list__empty-cart-message">
+                                        Please add something in your cart
+                                    </div>
+                                </div>
+                                <!-- filled cart list -->
+                                <div class="cart-list__filled-cart">
+                                    <div class="filled-cart__header">
+                                        <span class="filled-cart__title">
+                                            Added Products
+                                        </span>
+                                    </div>
+                                    <ul class="cart-list__filled-cart__items-list">
+                                        <a href="./" class="cart-list__filled-cart__item-wrapper">
+                                            <li class="cart-list__filled-cart__item">
+                                                <img src="assets/img/hinh_vegana/hinhsp/thuỷ thương (3).jpg" alt="foundation" class="filled-cart__item-img">
+                                                <div class="cart-list__filled-cart__item-info">
+                                                    <div class="cart-list__filled-cart__item-info-head">
+                                                        <span class="cart-list__filled-cart__item-name">
+                                                            Nourishing Hempseed Moisturizer (70ml)
+                                                        </span>
+                                                        <div class="cart-list__filled-cart__price-wrapper">
+                                                            <!-- <div class="cart-list__filled-cart__item-price">
+                                                                $20
+                                                            </div> -->
+                                                            <div class="cart-list__filled-cart__multiphy">x</div>
+                                                            <div class="cart-list__filled-cart__item-quantity">
+                                                                2
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="cart-list__filled-cart__item-info-body">
+                                                        <span class="cart-list__filled-cart__item-category">
+                                                            Category: Skincare
+                                                        </span>
+                                                        <span class="cart-list__filled-cart__remove">
+                                                            Remove
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </a>
+
+                                        <li class="cart-list__filled-cart__item">
+                                            <img src="assets/img/hinh_vegana/dasua/rosewater.jpg" alt="foundation" class="filled-cart__item-img">
+                                            <div class="cart-list__filled-cart__item-info">
+                                                <div class="cart-list__filled-cart__item-info-head">
+                                                    <span class="cart-list__filled-cart__item-name">
+                                                        Revitalizing Rosewater Toner (350ml)
+                                                    </span>
+                                                    <div class="cart-list__filled-cart__price-wrapper">
+                                                        <!-- <div class="cart-list__filled-cart__item-price">
+                                                            $25
+                                                        </div> -->
+                                                        <div class="cart-list__filled-cart__multiphy">x</div>
+                                                        <div class="cart-list__filled-cart__item-quantity">
+                                                            4
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-list__filled-cart__item-info-body">
+                                                    <span class="cart-list__filled-cart__item-category">
+                                                        Category: Skincare
+                                                    </span>
+                                                    <span class="cart-list__filled-cart__remove">
+                                                        Remove
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="cart-list__filled-cart__item">
+                                            <img src="assets/img/hinh_vegana/dasua/đã sửa (2).jpg" alt="foundation" class="filled-cart__item-img">
+                                            <div class="cart-list__filled-cart__item-info">
+                                                <div class="cart-list__filled-cart__item-info-head">
+                                                    <span class="cart-list__filled-cart__item-name">
+                                                        Vegan facial cleansers (150ml) 
+                                                    </span>
+                                                    <div class="cart-list__filled-cart__price-wrapper">
+                                                        <!-- <div class="cart-list__filled-cart__item-price">
+                                                            240K
+                                                        </div> -->
+                                                        <div class="cart-list__filled-cart__multiphy">x</div>
+                                                        <div class="cart-list__filled-cart__item-quantity">
+                                                            1
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-list__filled-cart__item-info-body">
+                                                    <span class="cart-list__filled-cart__item-category">
+                                                        Category: Skincare
+                                                    </span>
+                                                    <span class="cart-list__filled-cart__remove">
+                                                        Remove
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- <li class="cart-list__filled-cart__item">
+                                            <img src="./assets/img/ordinary/rdn-natural-moisturizing-factors-ha-30ml-10.png" alt="foundation" class="filled-cart__item-img">
+                                            <div class="cart-list__filled-cart__item-info">
+                                                <div class="cart-list__filled-cart__item-info-head">
+                                                    <span class="cart-list__filled-cart__item-name">
+                                                        RDN Natural Moisturizung
+                                                    </span>
+                                                    <div class="cart-list__filled-cart__price-wrapper">
+                                                        <div class="cart-list__filled-cart__item-price">
+                                                            $14
+                                                        </div>
+                                                        <div class="cart-list__filled-cart__multiphy">x</div>
+                                                        <div class="cart-list__filled-cart__item-quantity">
+                                                            1
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-list__filled-cart__item-info-body">
+                                                    <span class="cart-list__filled-cart__item-category">
+                                                        Category: Serum
+                                                    </span>
+                                                    <span class="cart-list__filled-cart__remove">
+                                                        Remove
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li> -->
+                                        <!-- <li class="cart-list__filled-cart__item">
+                                            <img src="./assets/img/ordinary/rdn-glycolic-acid-7pct-toning-solution-240ml-7.png" alt="foundation" class="filled-cart__item-img">
+                                            <div class="cart-list__filled-cart__item-info">
+                                                <div class="cart-list__filled-cart__item-info-head">
+                                                    <span class="cart-list__filled-cart__item-name">
+                                                        RDN High Adherence Silicone Primer 30ml
+                                                    </span>
+                                                    <div class="cart-list__filled-cart__price-wrapper">
+                                                        <div class="cart-list__filled-cart__item-price">
+                                                            $33
+                                                        </div>
+                                                        <div class="cart-list__filled-cart__multiphy">x</div>
+                                                        <div class="cart-list__filled-cart__item-quantity">
+                                                            2
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-list__filled-cart__item-info-body">
+                                                    <span class="cart-list__filled-cart__item-category">
+                                                        Category: Serum
+                                                    </span>
+                                                    <span class="cart-list__filled-cart__remove">
+                                                        Remove
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </li> -->
+                                    </ul>
+                                    <a href="./cart.html" class="cart-list__filled-cart__footer">
+                                        <button id="cart-list__view-button" class="buttons buttons--smaller">View Cart</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login-link__wrapper">
+                            <a class="login-link">
+                                <i class="fa fa-user"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-mobile__overlay"></div>
+                    <div class="nav-icon col l-0 m-0 c-6">
+                        <label for="nav-mobile__label">
+                            <i class="nav-link fas fa-bars"></i>
+                        </label>
+                        <input type="checkbox" hidden="" id="nav-mobile__label" class="navbar__check">
+                        <div class="nav-mobile">
+                            <label for="nav-mobile__label">
+                                <i class="icon-exit far fa-times-circle"></i>
+                            </label>
+                            <ul class="nav-mobile__list">
+                                <a href="./index.html" class="nav-mobile__link">
+                                    <li class="nav-mobile__item">
+                                        Home
+                                    </li>
+                                </a>
+                                <a href="./products.html" class="nav-mobile__link">
+                                    <li class="nav-mobile__item">
+                                        Products
+                                    </li>
+                                </a>
+                                <a href="./about.html" class="nav-mobile__link">
+                                    <li class="nav-mobile__item">
+                                        About Us
+                                    </li>
+                                </a>
+                                <a href="./contact.html" class="nav-mobile__link">
+                                    <li class="nav-mobile__item">
+                                        Contact Us
+                                    </li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        <!--Header: end-->
+
+        <!--Slider: begin-->
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="assets/img/hinh_vegana/dau trang/dautrang.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/hinh_vegana/dau trang/1_crop.png" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="assets/img/hinh_vegana/dau trang/2_crop.png" style="width:100%">
+            </div>
+
+
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <!--Slider: end-->
+
+        <!--Content: begin-->
+        <div class="content">
+            <!-- Featured Items: begin-->
+            <div id="featured-items">
+                <h1 class="content__title">
+                    FEATURED PRODUCT
+                </h1>
+                <div class="grid wide">
+                    <div class="row products">
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/dasua/rosewater.jpg">
+                                <h3 class="product__item-name">
+                                    Revitalizing Rosewater
+                                </h3>
+                                <h3 class="product__item-name">
+                                    Toner (350ml)
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price">
+                                        420.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">1050 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>Hot</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/hinhsp/thuỷ thương (2).jpg">
+                                <h3 class="product__item-name">
+                                    Glow-Boosting
+                                </h3>
+                                <h3 class="product__item-name">
+                                    Vitamin C Serum (30ml)
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price">
+                                        210.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">11 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>Hot</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/hinhsp/thuỷ thương (3).jpg">
+                                <h3 class="product__item-name">
+                                    Nourishing Hempseed
+                                </h3>
+                                <h3 class="product__item-name">
+                                    Moisturizer (70ml)
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price">
+                                        355.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">250 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>Hot</span>
+                                </div>
+                                <!--                                <div class="product__item-sale-off">-->
+                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                <!--                                </div>-->
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/dasua/đã sửa (2).jpg">
+                                <h3 class="product__item-name">
+                                    Vegan facial 
+                                </h3>
+                                <h3 class="product__item-name">
+                                    cleansers (150ml)   
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price product__item-price--old">
+                                        300.000 VNĐ
+                                    </h3>
+                                    <h3 class="product__item-price">
+                                        240.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+
+                                    </div>
+                                    <div class="product__sold-number">96 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>Hot</span>
+                                </div>
+                                <!--                                <div class="product__item-sale-off">-->
+                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                <!--                                </div>-->
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/dasua/đã sửa (5).jpg">
+                                <h3 class="product__item-name">
+                                    Venganconer 
+                                </h3>
+                                <h3 class="product__item-name">
+                                    (Hair conditioner) 200g
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price product__item-price--old">
+                                        200.000 VNĐ
+                                    </h3>
+                                    <h3 class="product__item-price">
+                                        180.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">3 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>Hot</span>
+                                </div>
+                                <!--                                <div class="product__item-sale-off">-->
+                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                <!--                                </div>-->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <!-- Featured Items: end-->
+            <div class="row sile-content">
+                <div class="l-6 m-6 c-12 ">
+                    <div class="row slide-content__main">
+                        <img class="slide-content__img" src="./assets/img/hinh_vegana/giuatrang/1.jpg" alt="" srcset="">
+                        <div class="slide-content__text">
+                            <h3>NATURAL SKINCARE IS AN ART FORM</h3>
+                            <p>It gives you healthier skin.</p>
+                        </div>
+                    </div>
+                    <div class="row slide-content__main">
+                        <img class="slide-content__img" src="./assets/img/hinh_vegana/giuatrang/2.jpg" alt="" srcset="">
+                        <div class="slide-content__text">
+                            <h3>NATURAL SKINCARE IS AN ART FORM</h3>
+                            <p>It gives you a sense of well-being.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-6 m-6 c-12 ">
+                    <div class="row slide-content__main">
+                        <img class="slide-content__img" src="./assets/img/hinh_vegana/giuatrang/4.jpg" alt="" srcset="">
+                        <div class="slide-content__text">
+                            <h3>NATURAL SKINCARE IS AN ART FORM</h3>
+                            <p>It has a positive impact on the environment.</p>
+                        </div>
+                    </div>
+                    <div class="row slide-content__main">
+                        <img class="slide-content__img" src="./assets/img/hinh_vegana/giuatrang/3.jpg" alt="" srcset="">
+                        <div class="slide-content__text">
+                            <h3>NATURAL SKINCARE IS AN ART FORM</h3>
+                            <p>It doesn't contain animal-derived ingredient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Items: begin-->
+            <div id="new-items">
+                <h1 class="content__title">
+                    BEAUTY TOOLS & ACCESSORIES
+                </h1>
+                <div class="grid wide">
+                    <div class="row products">
+     
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/hinhsp/thanh uyen.jpg">
+                                <h3 class="product__item-name">
+                                    Vegan Makeup
+                                </h3>
+                                <h3 class="product__item-name">
+                                    Remover Cotton
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price">
+                                        100.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">15 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>New</span>
+                                </div>
+                                <!--                                <div class="product__item-sale-off">-->
+                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                <!--                                </div>-->
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/hinhsp/thanh uyen (2).jpg">
+                                <h3 class="product__item-name">
+                                    Eco-Friendly Bamboo
+                                </h3>
+                                <h3 class="product__item-name">
+                                    Makeup Brushes Set
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price">
+                                        400.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">35 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">USA</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>New</span>
+                                </div>
+                                <!--                                <div class="product__item-sale-off">-->
+                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                <!--                                </div>-->
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img"
+                                    src="assets/img/hinh_vegana/hinhsp/thanh uyen (3).jpg">
+                                <h3 class="product__item-name">
+                                    Eco-Friendly Reusable  
+                                </h3>
+                                <h3 class="product__item-name">
+                                    Cotton Rounds
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price">
+                                        150.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">23 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>New</span>
+                                </div>
+                                <!--                                <div class="product__item-sale-off">-->
+                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                <!--                                </div>-->
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-3 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img" src="assets/img/hinh_vegana/dasua/đã sửa (6).jpg">
+                                <h3 class="product__item-name">
+                                    Biodegradable Hairbrush 
+                                </h3>
+                                <h3 class="product__item-name">
+                                    with Natural Bristles
+                                </h3>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price">
+                                        200.000 VNĐ
+                                    </h3>
+                                </div>
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">78 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Vegana</span>
+                                    <span class="product__item-origin-name">Vietnam</span>
+                                </div>
+                                <div class="product__item--describe">
+                                    <i class="fas fa-check"></i>
+                                    <span>New</span>
+                                </div>
+                                <!--                                <div class="product__item-sale-off">-->
+                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                <!--                                </div>-->
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <br>
+            </div>
+            <!-- New Items: end-->
+            <!-- Discount Items: begin-->
+            <div id="discount-items">
+                <h1 class="content__title">
+                    OUR PRODUCT
+                </h1>
+                <div class="grid wide">
+                    <div class="row products">
+                        <div class="col l-4">
+                            <!--Slider: begin-->
+                            <div class="products-slidesshow">
+                                <div class="mySlider fadeSlider">
+                                    <img class="mySlider-img" src="assets/img/hinh_vegana/cuoi trang/1 (1).jpg"
+                                        style="width: 100%;margin-bottom: 15px;">
+                                </div>
+                                <div class="mySlider fadeSlider">
+                                    <img class="mySlider-img" src="assets/img/hinh_vegana/cuoi trang/2.jpg"
+                                        style="width: 100%;margin-bottom: 15px;">
+                                </div>
+                                <div class="mySlider fadeSlider">
+                                    <img class="mySlider-img" src="assets/img/hinh_vegana/cuoi trang/3.jpg"
+                                        style="width: 100%;margin-bottom: 15px;">
+                                </div>
+                                <a class="prev" onclick="plusSlider(-1)" style="color: brown">
+                                    <i class="fas fa-arrow-circle-left"></i>
+                                </a>
+                                <a class="next" onclick="plusSlider(1)" style="color: brown">
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </a>
+                            </div>
+                            <div style="text-align: center;margin-bottom: 10px">
+                                <span class="dotSlider" onclick="currentSlider(1)">
+                                </span>
+                                <span class="dotSlider" onclick="currentSlider(2)">
+
+                                </span>
+                                <span class="dotSlider" onclick="currentSlider(3)">
+
+                                </span>
+                            </div>
+                            <script>
+                                var index = 0;
+                                showSliders(index)
+                                function plusSlider(n) {
+                                    showSliders(index += n);
+                                }
+                                function currentSlider(n) {
+                                    showSliders(index = n)
+                                }
+                                function showSliders(n) {
+                                    var i;
+                                    var slider = document.getElementsByClassName("mySlider");
+                                    var dotSlider = document.getElementsByClassName("dotSlider");
+                                    if (n > slider.length) {
+                                        index = 1
+                                    }
+                                    if (n < 1) {
+                                        index = slider.length;
+                                    }
+                                    for (i = 0; i < slider.length; i++) {
+                                        slider[i].style.display = "none";
+                                    }
+                                    for (i = 0; i < dotSlider.length; i++) {
+                                        dotSlider[i].className = dotSlider[i].className.replace(" active", "");
+
+                                    }
+                                    slider[index - 1].style.display = "block";
+                                    dotSlider[index - 1].className += " active";
+                                }
+                            </script>
+                            <!--Slider: end-->
+                        </div>
+                        <div class="col l-8">
+                            <div class="row">
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/dasua/rosewater.jpg">
+                                        <h3 class="product__item-name">
+                                            Revitalizing Rosewater
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            Toner (350ml)
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+                                            <h3 class="product__item-price">
+                                                420.000 VNĐ
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="product__sold-number">1050 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Hot</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/hinhsp/thuỷ thương (2).jpg">
+                                        <h3 class="product__item-name">
+                                            Glow-Boosting
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            Vitamin C Serum (30ml)
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+                                            <h3 class="product__item-price">
+                                                210.000 VNĐ
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="product__sold-number">11 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Hot</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/hinhsp/thuỷ thương (3).jpg">
+                                        <h3 class="product__item-name">
+                                            Nourishing Hempseed
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            Moisturizer (70ml)
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+                                            <h3 class="product__item-price">
+                                                355.000 VNĐ
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="product__sold-number">250 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Hot</span>
+                                        </div>
+                                        <!--                                <div class="product__item-sale-off">-->
+                                        <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                        <!--                                </div>-->
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/dasua/đã sửa (2).jpg">
+                                        <h3 class="product__item-name">
+                                            Vegan facial  
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            cleansers (150ml)   
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+
+                                            <h3 class="product__item-price">
+                                                240.000 VNĐ
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+        
+                                            </div>
+                                            <div class="product__sold-number">96 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale 20%</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/dasua/đã sửa (5).jpg">
+                                        <h3 class="product__item-name">
+                                            Venganconer 
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            (Hair conditioner) 200g
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+                                            <h3 class="product__item-price">
+                                                180.000 VNĐ
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="product__sold-number">3 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale 10%</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/dasua/đã sửa (3).jpg">
+                                        <h3 class="product__item-name">
+                                            Strawberry Delight
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            Bath Soap 200g
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+                                            <h3 class="product__item-price product__item-price--old">
+                                                $5.8
+                                            </h3>
+                                            <h3 class="product__item-price">
+                                                270.000 VNĐ
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="product__sold-number">78 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale 10%</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/dasua/đã sửa (4).jpg">
+                                        <h3 class="product__item-name">
+                                            Refreshing Exfoliating  
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            Bath Salt 200ml
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+                                            <h3 class="product__item-price">
+                                                350,000VND
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="product__sold-number">23 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>New</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img"
+                                            src="assets/img/hinh_vegana/hinhsp/7.jpg">
+                                        <h3 class="product__item-name">
+                                            Venboo (Shampoo for hair
+                                        </h3>
+                                        <h3 class="product__item-name">
+                                            loss) 100ml
+                                        </h3>
+                                        <div class="product__item-price-wrapper">
+   
+                                            <h3 class="product__item-price">
+                                                150.000 VND
+                                            </h3>
+                                        </div>
+                                        <div class="star-link-sold-wrapper">
+                                            <div class="star-link">
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="product__sold-number">14 sold</div>
+                                        </div>
+                                        <div class="product__item-company-wrapper">
+                                            <span class="product__item-company">Vegana</span>
+                                            <span class="product__item-origin-name">Vietnam</span>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>New</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+            <!-- Discount Items: end-->
+
+        </div>
+        <!--Content: end-->
+        <!--Overview: begin-->
+        <div class="overview">
+            <div class="grid wide">
+                <h3 class="overview__title">
+                    VeganaSkincare ONLINE  STORE 
+                </h3>
+                <p class="overview__content">
+                    We are an online oasis for natural, eco-friendly, 
+                    and cruelty-free skincare products. Our commitment is to deliver top-tier skincare solutions 
+                    while championing the well-being of our planet.
+                </p>
+                <h3 class="overview__title">
+                    New | Favourite | Affordable | Outlet
+                </h3>
+                <p class="overview__content">
+                    Responding to customers' needs, our cosmetics store is constantly expanding its range and introducing new products. 
+                    Customers can now shop in various categories: skincare, body care, hair care, beauty tools & and accessories, and many more.
+                </p>
+                <h3 class="overview__title">
+                    The best products at low prices
+                </h3>
+                <p class="overview__content">
+                    The prices of the products we offer are very competitive. 
+                    Discover our exceptional range of premium products meticulously crafted from natural ingredients, ensuring the highest quality and effectiveness.
+                </p>
+                <h3 class="overview__title">
+                    Free shipping when spending over 500K
+                </h3>
+                <p class="overview__content">
+                    Enjoy complimentary shipping for purchases exceeding 500K. 
+                    Discover the convenience of shopping at our online cosmetics store, where beauty meets lifestyle enhancement. 
+                    Elevate your beauty regimen and enhance your quality of life with our curated range of products.
+                </p>
+            </div>
+        </div>
+        <!--Overview: end-->
+
+        <!--Footer: begin-->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row footer-content">
+                    <div class="col l-4 m-12 c-12">
+                        <ul class="footer__contact">
+                            <li class="footer__contact--title">
+                                CONTACT
+                            </li>
+                            <a class="footer__contact-link" href="">
+                                <li class="footer__contact-address">
+                                    Address: Ho Chi Minh City
+                                </li>
+                            </a>
+                            <a class="footer__contact-link" href="">
+                                <li class="footer__contact-email">
+                                    Email: veganaskincare@gmail.com
+                                </li>
+                            </a>
+                            <a class="footer__contact-link" href="">
+                                <li class="footer__contact-phone">
+                                    Phone: +84 707250103
+                                </li>
+                            </a>
+                            <img class="footer__contact-img" src="assets/img/footer-tab-1.png" alt="">
+
+                        </ul>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <ul class="footer__follow">
+                            <li class="footer__contact--title">
+                                VEGANASKINCARE
+                            </li>
+                            <p class="footer__follow-text">
+                                Our mission is to provide exceptional natural skincare
+
+                                products that are eco-friendly and cruelty-free, prioritizing 
+
+                                both skin wellness and environmental care.
+                            </p>
+                            <div class="footer__follow-icon">
+                                <a href="" class="footer__follow-icon-link">
+                                    <i class="fab fa-internet-explorer"></i>
+                                </a>
+                                <a href="" class="footer__follow-icon-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="" class="footer__follow-icon-link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                                <a href="./admin/index.html" class="footer__follow-icon-link">
+                                    <i class="fab fa-pinterest-square"></i>
+                                </a>
+
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <ul class="footer__follow">
+                            <li class="footer__contact--title">
+                                COLLECTIONS
+                            </li>
+                            <p class="footer__follow-text">
+                                Herbal Harmony Line
+                                <br>
+                                VeganaBeauty – Forever Young 
+                                <br>
+                            </p>
+                            <li class="footer__contact--title">
+                                Customer Service and Support
+                            </li>
+                            <p class="footer__follow-text">
+                                Purchase Support
+                                <br>
+                                <a href="policy.html" class="footer__follow-text">
+                                    Return and Refund Policy
+                                </a>
+                            </p>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer--bottom">
+                <p class="footer-bottom__text">Copyright © Vegana</p>
+            </div>
+
+
+        </div>
+        <!--Footer: end-->
+        <!--Search mobile-->
+        <div class="search-mobile">
+            <div class="search-mobile__input">
+                <input class="search-mobile__input-text" placeholder="Search...">
+                <i class="icon-search fas fa-search"></i>
+            </div>
+
+            <a href="./cart.html" class="cart-link">
+                <i class="fa fa-cart-plus"></i>
+            </a>
+            <a class="login-link " style="padding-right: 10px">
+                <i class="fa fa-user"></i>
+            </a>
+
+        </div>
+    </div>
+    <!--    modal-->
+    <div class="modal">
+        <div class="modal__icon-close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <input type="text" class="modal__input" placeholder="Search...">
+
+        <!-- Search history -->
+        <div class="modal__history">
+            <h3 class="modal__history-history-heading">Search history</h3>
+            <ul class="modal__history-history-list">
+                <li class="modal__history-item">
+                    <a href="">Body mist</a>
+                </li>
+                <li class="modal__history-item">
+                    <a href="">Innisfee green tea</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--modal account-->
+    <div class="modal-account">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <!--Register form -->
+            <div class="register-form">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Register</h3>
+                            <span class="login-from__btn auth-form__switch-btn">Login</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="mail" class="auth-form__input" placeholder="User name">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="mail" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Confirm password">
+                            </div>
+
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                By registering, you agree with Cosmetics
+                                <a href="" class="auth-form__text-link">
+                                    Terms of service
+                                </a>&
+                                <a href="" class="auth-form__text-link">
+                                    Privacy policy
+                                </a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn buttons auth-form__controls-back ">
+                                BACK
+                            </button>
+                            <!-- <button class="buttons">
+                                REGISTER
+                            </button> -->
+                            <!-- Trong file HTML hiện tại (ví dụ: current.html) -->
+                            <button class="buttons" onclick="redirectToIndex()">
+                                REGISTER
+                            </button>
+                        </div>
+                    </div>
+                    <div class="auth-form_socials">
+                        <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
+                            <i class="auth-form_socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__social-title">
+                                Connect to Facebook</span>
+                        </a>
+                        <a href=""
+                            class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                            <i class="icon-gg fab fa-google-plus-square"></i>
+                            <span class="auth-form__social-title">
+                                Connect to Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Login form -->
+            <div class="login-form">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Login</h3>
+                            <span class="register-from__btn auth-form__switch-btn">Register</span>
+
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input id="mail" type="email" class="auth-form__input" placeholder="User name">
+                            </div>
+                            <div class="auth-form__group">
+                                <input id="password" type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+
+
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <span href="" class="auth-form__help-link auth-form__help-link--forgot">Forgot
+                                    password</span>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Help?</a>
+                            </div>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn buttons auth-form__controls-back ">
+                                BACK
+                            </button>
+                            <a><input id="submit" type="submit" class="buttons" name="Login"> </a>
+                            <!-- <p><input id="submit" type="submit" class="buttons" name="Login"> </p> -->
+
+                        </div>
+                    </div>
+                    <div class="auth-form_socials">
+                        <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
+                            <i class="auth-form_socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__social-title">
+                                Kết nối với Facebook</span>
+                        </a>
+                        <a href=""
+                            class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                            <i class="icon-gg fab fa-google-plus-square"></i>
+                            <span class="auth-form__social-title">
+                                Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Forgot password-->
+            <div class="forgot-pass-form">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Forgot password</h3>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="mail" class="auth-form__input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn buttons auth-form__controls-back ">
+                                BACK
+                            </button>
+                            <button class="buttons">
+                                SEND
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Back to top  -->
+    <div id="back-to-top" class="back-to-top" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Popup -->
+    <div class="popup-wrapper">
+        <div class="popup-overlay"></div>
+        <div class="popup stay-in-touch">
+            <div class="close-wrapper">
+                <a href="javascript:void(0)" class="close">
+                    <i class="fas fa-times close-icon"></i>
+                </a>
+            </div>
+            <div class="stay-in-touch__title">
+                <h2>Stay in touch</h2>
+            </div>
+            <div class="stay-in-touch__form">
+                <input type="text" placeholder="E-mail address">
+                <button class="buttons">Send</button>
+            </div>
+            <div class="stay-in-touch__form-description">
+                <p>Enter your email to receive the latest updates about our collection.</p>
+            </div>
+            <div class="stay-in-touch__prevent">
+                <input type="checkbox" value="1" id="input-checkbox-prevent">
+                <label for="input-checkbox-prevent">
+                    <p>Prevent This Pop-up</p>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!--Js slide-->
+    <script>
+        var slideIndex = 0
+        showSlides()
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+<!-- Chat Support -->
+<div class="chat-widget">
+    <div class="chat-header">
+        <span class="chat-title">Chat Support</span>
+        <div class="close-chat" onclick="toggleChat()">×</div>
+    </div>
+    <div class="chat-body">
+        <div class="chat-message">
+            <p>Welcome to our website! How can we assist you today?</p>
+        </div>
+    </div>
+    <div class="chat-footer">
+        <input type="text" id="chat-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<!-- Chat Support Script -->
+<script>
+    function toggleChat() {
+        var chatWidget = document.querySelector('.chat-widget');
+        chatWidget.classList.toggle('closed');
+    }
+
+    function sendMessage() {
+        var userInput = document.getElementById('chat-input').value;
+        var chatBody = document.querySelector('.chat-body');
+
+        // Display user message
+        var userMessage = document.createElement('div');
+        userMessage.className = 'chat-message user';
+        userMessage.innerHTML = '<p>' + userInput + '</p>';
+        chatBody.appendChild(userMessage);
+
+        // Simulate a delayed response from support
+        setTimeout(function() {
+            var supportMessage = document.createElement('div');
+            supportMessage.className = 'chat-message';
+            supportMessage.innerHTML = '<p>Thank you for reaching out! We are here to help.</p>';
+            chatBody.appendChild(supportMessage);
+        }, 1000);
+
+        // Clear input field
+        document.getElementById('chat-input').value = '';
+    }
+    <!-- Script JavaScript -->
+
+    function redirectToIndex() {
+        // Chuyển hướng đến trang index.html
+        window.location.href = "./admin/index.html";
+    }
+
+</script>
+
+    <script src="assets/js/showHide.js"></script>
+    <script src="./assets/js/JSBase.js"></script>
+</body>
+
+</html>
